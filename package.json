@@ -1,0 +1,19 @@
+{
+  "name": "femc_interactive-rating-component",
+  "version": "1.0.0",
+  "description": "Front End Mentor Challange => interactive rating component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "front end",
+    "javascript",
+    "vanilla",
+    "css",
+    "html",
+    "challenge"
+  ],
+  "author": "carlos",
+  "license": "ISC"
+}
