@@ -34,12 +34,11 @@
     </style>
     <!-- imports  -->
     <link href="./style.css" rel="stylesheet" />
-    <!-- link css stylesheet -->
   </head>
 
   <body>
     <main class="body">
-      <div class="card">
+      <div id="card" class="card">
         <div class="icon__container">
           <img class="icon__img" src="./images/icon-star.svg" alt="star" />
         </div>
@@ -61,21 +60,31 @@
 
         <div class="card__btn">SUBMIT</div>
       </div>
+
+      <div id="card--thks" class="card card--thks">
+        <img
+          class="thks__img"
+          src="./images/illustration-thank-you.svg"
+          alt="thank you illustration"
+        />
+
+        <div id="thks__fb" class="thks__fb"></div>
+
+        <h1 class="card__title card__title--thks">Thank you!</h1>
+
+        <p class="card__text card__text--thks">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
     </main>
 
-    <!--   <div>
-    You selected
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
--->
-    
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Carlos</a>.
     </div>
-  </div> 
     <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
