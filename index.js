@@ -4,7 +4,13 @@ const getHtmlElement = (selector, type) => {
     : document.querySelector(selector);
 };
 
+const enableBtn = () => {
+  const btn = getHtmlElement(".card__btn");
+  btn.classList.remove("disabled");
+};
+
 const handleSelect = (e) => {
+  enableBtn();
   const ratings = getHtmlElement(".number", "all");
   for (let rate of ratings) {
     rate.removeAttribute("style");

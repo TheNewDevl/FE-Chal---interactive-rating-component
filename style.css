@@ -130,3 +130,13 @@ body {
 .card__text--thks {
   text-align: center;
 }
+
+.disabled {
+  background-color: #828b96;
+  color: #222832;
+}
+.disabled:hover {
+  background-color: #828b96;
+  color: #222832;
+  cursor: initial;
+}
