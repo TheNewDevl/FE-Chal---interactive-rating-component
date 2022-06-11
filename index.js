@@ -6,7 +6,7 @@ const getHtmlElement = (selector, type) => {
 
 const enableBtn = () => {
   const btn = getHtmlElement(".card__btn");
-  btn.classList.remove("disabled");
+  btn.removeAttribute("disabled");
 };
 
 const handleSelect = (e) => {
