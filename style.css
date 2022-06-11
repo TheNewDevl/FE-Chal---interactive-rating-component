@@ -1,7 +1,9 @@
 * {
   font-family: "Overpass", sans-serif;
   transition: all 200ms ease-in-out;
+  box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -12,27 +14,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .card {
   background-color: #222832;
-  width: 350px;
-  height: 357px;
-  max-width: 410px;
-  padding: 40px;
+  width: 415px;
+  min-height: 415px;
+  max-width: 415px;
+  padding: 37px;
   border-radius: 30px;
 }
+
+@media screen and (max-width: 415px) {
+  .card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .icon__container {
   background-color: #272e38;
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card__title {
+  font-size: 1.8em;
   margin-top: 1em;
   margin-bottom: 0;
   color: hsl(0, 0%, 100%);
@@ -50,7 +62,6 @@ body {
   justify-content: space-between;
   margin-top: 1.5em;
   width: 100%;
-  gap: 20px;
 }
 
 .number {
